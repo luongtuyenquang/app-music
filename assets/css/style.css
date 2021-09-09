@@ -108,6 +108,47 @@ input.box-header__search-input:focus {
     font-size: 1.6rem;
     color: white;
 }
+.box-user {
+    text-align: center;
+}
+.box-user__img {
+    width: 9.5rem;
+    height: 9.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+.box-user__name {
+    color: white;
+    font-size: 2.5rem;
+}
+.box-menu {
+    padding: 5rem 0 3rem;
+}
+.box-menu__group {
+    display: flex;
+    justify-content: center;
+    background-color: #2F2739;
+    padding: 1rem 0;
+    width: 56%;
+    margin: 0 auto;
+    border-radius: 20px;
+    align-items: center;
+}
+.active {
+    background-color: #6E6875;
+    border-radius: 20px;
+}
+.box-menu__list {
+    list-style-type: none;
+}
+.box-menu__item {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: .7rem 3.12rem;
+    
+}
 
 
 /* Play-music */
