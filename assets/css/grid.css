@@ -81,10 +81,10 @@
         margin-right: -6px;
     }
     /* PC */
-    .col{
+    /* .col{
         padding-left: 6px;
         padding-right: 6px;
-    }
+    } */
     .col-l-1{
         flex: 0 0 8.33333%;
         max-width: 8.33333%;
@@ -154,10 +154,10 @@
         margin-left: -8px;
         margin-right: -8px;
     }
-    .col{
+    /* .col{
         padding-left: 8px;
         padding-right: 8px;
-    }
+    } */
     /* Tablet */
 
     .col-m-1{
@@ -319,10 +319,10 @@
         margin-left: -8px;
         margin-right: -8px;
     } */
-    .col{
+    /* .col{
         padding-left: 8px;
         padding-right: 8px;
-    }
+    } */
     /* Tablet */
 
     .col-ml-1{

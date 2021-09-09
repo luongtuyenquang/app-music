@@ -10,11 +10,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
-    <!-- Open Sans - 400-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-
     <!-- Themify -->
     <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
     
@@ -22,11 +17,86 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <title>Zing mp3</title>
 </head>
 <body>
+    <div class="app">
+        <div class="row">
+            <div class="col col-l-2">
+                <div class="sidebar">
+                    <img src="./assets/img/logo/logo-app.svg" class="logo-app" alt="">
+                    <div class="sidebar-menu">
+                        <ul class="sidebar-menu__list">
+                            <li><a href="#1" class="sidebar-menu__list-item"><i class="ti-music-alt sidebar-icon"></i>Cá nhân</a></li>
+                            <li><a href="#1" class="sidebar-menu__list-item"><i class="ti-control-record sidebar-icon"></i>Khám phá</a></li>
+                            <li><a href="#1" class="sidebar-menu__list-item"><i class="ti-bar-chart-alt sidebar-icon"></i>#zingchart</a></li>
+                            <li><a href="#1" class="sidebar-menu__list-item"><i class="ti-music-alt sidebar-icon"></i>Radio & Podcast</a></li>
+                            <li><a href="#1" class="sidebar-menu__list-item"><i class="ti-receipt sidebar-icon"></i>Theo dõi</a></li>
+                        </ul>
+                    </div>
+                    <div class="sidabar-line"></div>
+                    <div class="sidebar-menu">
+                        <ul class="sidebar-menu__list">
+                            <li><a href="#1" class="sidebar-menu__list-item"><i class="ti-music sidebar-icon"></i>Nhạc mới</a></li>
+                            <li><a href="#1" class="sidebar-menu__list-item"><i class="ti-layout-grid2 sidebar-icon"></i>Thể loại</a></li>
+                            <li><a href="#1" class="sidebar-menu__list-item"><i class="ti-star sidebar-icon"></i>Top 100</a></li>
+                            <li><a href="#1" class="sidebar-menu__list-item"><i class="ti-control-stop sidebar-icon"></i>MV</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-l-10">
+                <div class="box">
+                    <div class="box-header">
+                        <div class="box-header__search">
+                            <input type="text" class="box-header__search-input" placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV....">
+                            <i class="ti-search box-header__search-icon"></i>
+                        </div>
+                        <div class="box-header__user">
+                            <a href="#1" class="box-header__user-item"><i class="ti-upload box-header__icon"></i></a>
+                            <a href="#1" class="box-header__user-item"><i class="ti-settings box-header__icon"></i></a>
+                            <a href="#1" class="box-header__user-item">
+                                <img src="" class="box-header__user-img" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="footer">
+            <div class="row">
+                <div class="col col-l-12">
+                    <div class="play-music">
+                        <div class="play-music__info">
+                            <img src="./assets/img/logo/logo.jpg" class="play-music__logo" alt="">
+                            <div class="play-music__info-group">
+                                <h3 class="play-music__info-name-song">Tình Đẹp Mấy Cũng Tàn</h3>
+                                <p class="play-music__info-name-singer">Như Việt</p>
+                            </div>
+                        </div>
+                        <div class="play-music__control">
+                            <div class="play-music__control-group">
+                                <i class="ti-control-shuffle control-icon"></i>
+                                <i class="ti-control-skip-backward control-icon"></i>
+                                <i class="ti-control-play control-icon"></i>
+                                <i class="ti-control-pause control-icon"></i>
+                                <i class="ti-control-skip-forward control-icon"></i>
+                                <i class="ti-loop control-icon"></i>
+                            </div>
+                            <input type="range" class="play-music__control-range" min="0" max="100">
+                        </div>
+                        <div class="play-music__volum">
+                            <i class="ti-microphone-alt volum-icon"></i>
+                            <i class="ti-volume volum-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
     
     <script src="./assets/js/main.js"></script>
 </body>
